@@ -11,8 +11,9 @@ p {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Mulish', sans-serif;
+  position: relative;
 }
 
 body {
-  background-color: bisque;
+  background-color: ;
 }

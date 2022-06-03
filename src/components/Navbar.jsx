@@ -8,22 +8,22 @@ const Navbar = () => {
       <nav className="navBar">
         <ul className="navList">
           <li className="list">
-            <NavLink exact to="/">
+            <NavLink className="link" exact to="/">
               Home
             </NavLink>
           </li>
           <li className="list">
-            <NavLink exact to="/about">
+            <NavLink className="link" exact to="/about">
               About
             </NavLink>
           </li>
           <li className="list">
-            <NavLink exact to="/service">
+            <NavLink className="link" exact to="/service">
               Services
             </NavLink>
           </li>
           <li className="list">
-            <NavLink exact to="/contact">
+            <NavLink className="link" exact to="/contact">
               Contact Us
             </NavLink>
           </li>

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.app {
+}
+
+.navBar {
+  justify-content: end;
+  display: flex;
+  padding-right: 80px;
+  margin-top: 20px;
+}
+
+.navBar .navList {
+  display: flex;
+}
+
+.navList .list {
+  padding: 5px;
+  list-style-type: none;
+}

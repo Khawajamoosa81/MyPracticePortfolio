@@ -6,6 +6,11 @@ const Navbar = () => {
   return (
     <header className="app">
       <nav className="navBar">
+        <div className="logo">
+          <NavLink className="logoHead" exact to="/">
+            Khawaja Technical
+          </NavLink>
+        </div>
         <ul className="navList">
           <li className="list">
             <NavLink className="link" exact to="/">

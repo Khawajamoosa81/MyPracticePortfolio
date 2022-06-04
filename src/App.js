@@ -10,15 +10,17 @@ import Contact from './components/Contact';
 const App = () => {
   return (
     <div>
-      <div class="navBar">
+      <div className="navBar">
         <Navbar />
       </div>
-      <Routes>
-        <Route path="/" exact element="Home" />
-        <Route path="/about" exact element="About" />
-        <Route path="/service" exact element="Service" />
-        <Route path="/contact" exact element="Contact" />
-      </Routes>
+      <div className="routes">
+        <Routes>
+          <Route path="/" exact element="Home" />
+          <Route path="/about" exact element="About" />
+          <Route path="/service" exact element="Service" />
+          <Route path="/contact" exact element="Contact" />
+        </Routes>
+      </div>
     </div>
   );
 };

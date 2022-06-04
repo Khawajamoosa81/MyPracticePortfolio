@@ -15,5 +15,10 @@ p {
 }
 
 body {
-  background-color: ;
+}
+
+.routes {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
 }

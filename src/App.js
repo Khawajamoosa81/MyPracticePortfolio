@@ -9,19 +9,27 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div>
+    <React.Fragment>
       <div className="navBar">
         <Navbar />
       </div>
+
       <div className="routes">
-        <Routes>
-          <Route path="/" exact element="Home" />
-          <Route path="/about" exact element="About" />
-          <Route path="/service" exact element="Service" />
-          <Route path="/contact" exact element="Contact" />
-        </Routes>
+        <div className="divider">
+          <span class="MainHeading">
+            Hi! I am Web Developer, Web Designer, Full Stack & Mern Stack
+            Developer
+          </span>
+        </div>
       </div>
-    </div>
+
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/about" exact element={<About />} />
+        <Route path="/service" exact element={<Service />} />
+        <Route path="/contact" exact element={<Contact />} />
+      </Routes>
+    </React.Fragment>
   );
 };
 

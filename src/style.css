@@ -15,10 +15,21 @@ p {
 }
 
 body {
+  background-color: whitesmoke;
 }
 
 .routes {
   justify-content: center;
   display: flex;
   margin-top: 50px;
+}
+
+.routes .divider {
+  background-color: antiquewhite;
+  min-width: 1200px;
+  min-height: 400px;
+}
+
+.routes .divider .MainHeading {
+  font-weight: bolder;
 }

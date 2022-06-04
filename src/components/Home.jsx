@@ -1,11 +1,8 @@
 import React from 'react';
+import './css/Home.css';
 
 const Home = () => {
-  return (
-    <div>
-      <h2>Welcome to Home</h2>
-    </div>
-  );
+  return <div>sdfdf</div>;
 };
 
 export default Home;
